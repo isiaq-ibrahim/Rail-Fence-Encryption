@@ -5,8 +5,11 @@
 
 ## Features
 • User Input: Allows users to input the text to be encrypted.
+
 • Key Depth Selection: Enables users to select a key depth (1-12) via a dropdown menu.
+
 • Encryption: Applies the Rail Fence cipher algorithm based on the selected key depth.
+
 • Result Display: Displays the encrypted output directly on the screen.
 
 How It Works
@@ -15,7 +18,9 @@ How It Works
 Algorithm Steps:
 
 • Create a grid with key_depth rows and text_length columns.
+
 • Write the text in a zigzag pattern (downward and upward motion).
+
 • Concatenate the characters row by row to produce the encrypted text.
 
 Example:
@@ -33,8 +38,11 @@ L   O
 
 ## UI Components:
 • TextInputEditText for user input.
+
 • Spinner for key depth selection.
+
 • MaterialButton for triggering encryption.
+
 • TextView for displaying results.
 
 Build Tool: Gradle
@@ -44,6 +52,7 @@ Build Tool: Gradle
 ## Java File
 MainActivity.java
 • Contains the logic for handling user input, performing encryption, and updating the UI.
+
 • Includes the Rail Fence cipher implementation in the encryptRailFence method.
 
 ## XML Layout
@@ -52,13 +61,18 @@ Defines the app's UI, including the input field, dropdown menu, button, and resu
 
 ## How to Run
 • Clone the repository to your local machine.
+
 • Open the project in Android Studio.
+
 • Sync the Gradle files.
+
 • Build and run the app on an emulator or physical device.
 
 ## Future Enhancements
 • Add decryption functionality to reverse the cipher.
+
 • Include additional classical encryption algorithms.
+
 • Improve UI/UX with animations and error handling.
 
 #License
